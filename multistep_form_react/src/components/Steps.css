@@ -1,0 +1,52 @@
+.steps {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative; /* para pode colocar a linha entre as etapas */
+    margin-bottom: 2rem;
+}
+/* linha entre as etapas */
+.steps::after {
+    content: "";
+    width: 380px;
+    border-bottom: 1px solid #5C15BF;
+    position: absolute;
+    top: 20px;
+}
+
+.step {
+    
+    text-align: center;
+    background-color: #fff;
+    z-index: 1; /* vai jogar o elemento de passo pra frente da linha*/
+    width: 120px;
+    padding: 0.5rem;
+}
+ 
+/* icone */
+.step svg { 
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+    fill: #ccc; /* mudar a cor do icon */
+    
+}
+
+.active {
+    font-weight: bold;
+
+}
+
+.active > svg {
+    fill: #5C15BF;
+}
+
+
+
+
+
+
+
+

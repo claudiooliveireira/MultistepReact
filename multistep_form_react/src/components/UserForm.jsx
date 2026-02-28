@@ -1,4 +1,4 @@
-// peder os dados dos usuários 
+// pedir os dados dos usuários 
 
 const UserForm = () => {
   return (
