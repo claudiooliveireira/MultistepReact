@@ -3,7 +3,7 @@ import { useState } from "react";
 export function useForm(steps) {
     const [currentStep, setCurrentStep] = useState(0)
 
-    /* funcionalidade para muda de cesão */
+    /* funcionalidade para muda de etapa */
     function changeStep(i, e){ //  receber o indese (i, passo) e o evento da acão ( e )
         if(e) e.preventDefault();
 

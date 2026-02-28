@@ -5,6 +5,8 @@ import UserForm from './components/UserForm';
 import ReviewForm from './components/ReviewForm';
 import Thanks from './components/thanks';
 
+import Steps from './components/Steps';
+
 /* hooks */
 import { useForm } from './hooks/useForm';
 
@@ -30,7 +32,8 @@ function App() {
           <p>Ficamos felizes com sua compra, utilize o formulário abaixo para avaliar o produto.</p>
         </div>
         <div className="form-container">
-          <p>etapas</p>
+          {/* Steps etapas */ }
+          <Steps currentStep={currentStep}/>
 
           <form onSubmit={(e) => changeStep(currentStep + 1, e)}> {/* botão avançar um passo*/}
             {/* Formulário modificado */}
