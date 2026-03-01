@@ -1,3 +1,4 @@
+// Etapas, parte de cima onde mostrar o icon 
 import {AiOutlineUser, AiOutlineStar} from "react-icons/ai";
 import {FiSend} from "react-icons/fi";
 

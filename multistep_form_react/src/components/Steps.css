@@ -1,3 +1,5 @@
+/* CSS das etapas, parte de cima onde mostrar o icon */ 
+
 .steps {
     display: flex;
     gap: 4rem;
