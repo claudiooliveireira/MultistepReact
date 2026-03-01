@@ -1,0 +1,49 @@
+.form-control.score-container {
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    
+}
+
+.score-container  svg {
+    
+    font-size: 1.8rem;
+    cursor: pointer;
+    fill: #929292;
+    transition: 0.3s;
+}
+
+.score-container svg:hover {
+    fill: #5C15BF;
+}
+
+/* deicar o icone marcado após escolher */
+.score-container input:checked ~ svg {
+    fill: #5C15BF
+}
+
+/* container do input radio, tirar o input deixando só os icon monstrando */
+.radio-container {
+    text-align: center;
+    position: relative;
+}
+
+.radio-container input { /* tirar o input deixando só os icon monstrando */
+    opacity: 0;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.radio-container p {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+}
+
+.score-container input:checked ~ p {
+    color: #5C15BF;
+    font-weight: bold;
+}
+
