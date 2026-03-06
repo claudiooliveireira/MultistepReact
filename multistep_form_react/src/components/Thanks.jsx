@@ -10,7 +10,7 @@ import "./Thanks.css";
 
 
 
-const Thanks = () => {
+const Thanks = ({data}) => {
   return (
     <div className="thanks-container">
         <h2>Falta pouco...</h2>

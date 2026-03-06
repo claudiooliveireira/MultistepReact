@@ -87,8 +87,13 @@ textarea {
 .actions button:hover {
     background-color: #792be6;
 }
+.form-container img {
+    height: 80px;
+    justify-content: center;
+    margin: 0 auto;
 
-
+    
+}
 
 
 
