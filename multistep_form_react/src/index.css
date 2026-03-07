@@ -12,11 +12,19 @@ p {
 }
 
 body {
-  background-image: linear-gradient(to bottom,  #070540 , #180559, #31078C, #5C15BF ); 
+  background-image: linear-gradient(to bottom,  #31078C, #5C15BF, transparent );
+  
   height: 100vh;
+  
 }
 
+/* 
+background-image: linear-gradient(to bottom,  #070540 , #180559, #31078C, #5C15BF ); 
 
+
+  background-image: url('../public/background-nu.png'  ); 
+  background-size: cover;
+*/ 
 
 
 

@@ -19,7 +19,7 @@
     fill: #5C15BF;
 }
 
-/* deicar o icone marcado após escolher */
+/* deixar o icone marcado após escolher */
 .score-container input:checked ~ svg {
     fill: #5C15BF
 }

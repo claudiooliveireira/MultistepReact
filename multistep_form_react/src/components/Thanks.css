@@ -32,3 +32,10 @@
     color: #F2620F;
     font-weight: bold;
 }
+
+.review-data svg {
+    
+    font-size: 1.3rem;
+    fill: #5C15BF;
+    
+}
