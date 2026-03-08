@@ -46,7 +46,7 @@ function App() {
       <div className='app'> 
      
         <div className="header">
-          <img className="logo-nu" src="../public/logo-nu-nubank.png" alt="" />
+          
           <h2>Deixe sua avaliação</h2>
           <p>Ficamos felizes com sua compra, utilize o formulário abaixo para avaliar o produto.</p>
         </div>

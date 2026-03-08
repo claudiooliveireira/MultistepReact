@@ -12,7 +12,7 @@ p {
 }
 
 body {
-  background-image: linear-gradient(to bottom,  #31078C, #5C15BF, transparent );
+  background-image: linear-gradient(to bottom,  #31078C, #5C15BF, #000);
   
   height: 100vh;
   
